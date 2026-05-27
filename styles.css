@@ -1,0 +1,30 @@
+body{
+    background-color:antiquewhite
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    color:darkred
+}
+:root {
+    --c1: #A4161A;
+    --c2: #020300;
+    --c3: #F8F4E3;
+    --c4: rgb(50, 45, 44);
+    --c5: #6B818C;
+}
+nav {
+    display: flex;
+    justify-content: first;
+    background-color: var(--c5);
+    margin: 0px;
+    padding: 15px;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 0 30px;
+    padding-right: 50px;
+    color: var(--c1);
+    text-decoration: none;
+}
